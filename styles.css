@@ -1,0 +1,67 @@
+@media only screen and (max-width:480px){
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+    .set{
+        background-color: pink;
+        width:100%;
+    }
+}
+
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+    body{
+        display:flex;
+        flex-direction:column;
+    }
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+    .set{
+        background-color:beige;
+        min-width: 45%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+.set{
+    width:23%;
+    float:left;
+}
+#Bdiv{
+    float:right;
+}
+}
+
+
+
+.set  {
+    width:23%;
+    background-color:aqua;
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.set li{
+    width: 100px;
+    height:100px;
+    background-color: red;
+    border: 2.5px solid  black;
+    margin:2.5px;
+    padding:5px;
+    transition-duration: 0.65s;
+}
+
+.set li:hover{
+    background-color:green;
+}
+
+.set ul{
+    list-style-type:none;
+}
+
+
